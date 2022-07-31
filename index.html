@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@700&display=swap" rel="stylesheet"/>
+    <link rel="stylesheet" href="./assets/css/reset.css" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <link rel="stylesheet" href="./assets/css/modal.css">
+    <title>Cadastro de Pessoas</title>
+</head>
+
+<body>
+    <section class="main-container">
+        <main>
+            <form>
+                <img src="./assets/img/LOGO.png" alt="Logo" />
+                <h2>Cadastro</h2>
+    
+                <label for="nome">Nome</label>
+                <input type="text" name="nome" placeholder="Nome" class="field" required/>
+    
+                <label for="sobrenome">Sobrenome</label>
+                <input type="text" name="sobrenome" placeholder="Sobrenome" class="field" required/>
+    
+                <label for="data-nascimento">Data de nascimento</label>
+                <input type="date" name="dataNascimento" class="field" required/>
+    
+                <label for="email">Email</label>
+                <input type="email" name="email" placeholder="Email" class="field" required/>
+    
+                <label for="contato">Contato</label>
+                <input type="text" name="contato" placeholder="Contato" class="field" required/>
+    
+                <label for="telefone">Telefone</label>
+                <input type="tel" name="telefone" placeholder="Telefone" class="field" required/>
+    
+                <label for="cargo">Cargo</label>
+                <select id="cargo" name="cargo" class="field">
+                <option value="Aluno">Aluno</option>
+                <option value="Facilitador">Facilitador</option>
+                <option value="Instrutor">Instrutor</option>
+            </select>
+    
+                <button id="register-button">Cadastrar</button>
+            </form>
+        </main>
+        <aside>
+            <h3>Total de cadastrados: <span id="total-cadastrados"></span></h3>
+            <div>
+                <select id="cargoOption">
+                    <option value="Todos">Todos</option>
+                    <option value="Aluno">Aluno</option>
+                    <option value="Facilitador">Facilitador</option>
+                    <option value="Instrutor">Instrutor</option>
+                </select>
+                <button id="search-button">Pesquisar</button>
+            </div>
+            <ul id="lista-de-cadastrados"></ul>
+        </aside>
+    </section>
+
+    <section id="modal-container" class="modal-container">
+        <section id="modal" class="modal">
+            <p id="modal__mensagem" class="modal__mensagem">Qualquer mensagem!</p>
+            <button id="modal__botao" class="modal__botao">OK!</button>
+        </section>
+    </section>
+    
+    <script type="module" src="./assets/js/principal.js"></script>
+</body>
+
+</html>
