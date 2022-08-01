@@ -1,21 +1,48 @@
-# 🏁 Entrega - Cadastro de pessoas
+# Cadastro de Pessoas
 
-Para começar faça clone deste [repositório](https://classroom.github.com/a/IHzmQUQf)
+## link 👇
 
-Nesta entrega, você já receberá o html e o css pronto. Sua tarefa é:
+https://thdev-matheus.github.io/th-matheus-cadastro-de-pessoas/
 
-- Criar uma classe **Pessoa** que receberá as mesmas propriedades que o usuário deve preencher no formulário.
-- criar um novo usuário utilizando a classe **Pessoa** e adicioná-lo na lista ao lado
-- Criar um método na classe que filtre os usuários pelo tipo de **cargo**. Caso o filtro seja **todos**, deverá renderizar todos os usuários.
-- Não deixar que cadastre-se um novo usuário com um email já existente na lista (Exibir modal com mensagem de erro).
+<div style="display: inline_block"><br/>
+    <img align="center" alt="html5" src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white"/>
+    <img align="center" alt="css3" src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white"/>
+    <img align="center" alt="git" src="https://img.shields.io/badge/GIT-E44C30?style=for-the-badge&logo=git&logoColor=white"/>
+    <img align="center" alt="github" src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white"/>
+    <img align="center" alt="javascript" src="https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E"/>
+    <img align="center" alt="vscode" src="https://img.shields.io/badge/Visual_Studio_Code-0078D4?style=for-the-badge&logo=visual%20studio%20code&logoColor=white"/>
+</div>
+<br/>
+<br/>
+<div style="display: inline-block">
+    <img width="46%" src="https://i.ibb.co/Q8DK7zY/Captura-de-tela-de-2022-07-31-23-23-37.png" alt="imagem">
+    <img width="46%" src="https://i.ibb.co/x3b5mb3/Captura-de-tela-de-2022-07-31-23-23-41.png" alt="imagem">
+    <img width="46%" src="https://i.ibb.co/HPGHVw4/Captura-de-tela-de-2022-07-31-23-24-39.png" alt="imagem">
+    <img width="46%" src="https://i.ibb.co/hB9HNh5/Captura-de-tela-de-2022-07-31-23-24-45.png" alt="imagem">
+    <img width="46%" src="https://i.ibb.co/8m7Yj40/Captura-de-tela-de-2022-07-31-23-26-19.png" alt="imagem">
+</div>
+<br/>
+<br/>
 
-![exemplo do extra entrega cadastro de pessoas](https://kenzie-academy-brasil.gitlab.io/fullstack/frontend/modulo2/sprint2/gifs/entrega-cadastro-de-pessoas/cadastro-extras.gif)
+> Simule um registro de uma pessoa mas não pode ser menor de 18 anos.
 
-### Extras:
+<br/>
 
-- Não deixar que menores de 18 anos se cadastrem (Exibir modal com mensagem de erro).
+Aplicação desenvolvida no 2º módulo do curso de desenvolvimento full stack da Kenzie Academy Brasil. Simula um cadastro com algumas validações.
 
-## Envio
+<br/>
 
-Faça o push do código para o seu repositório GitHub e implemente-o GitHub pages. Coloque seu repositório como **Privado** e adicione em **Configurações > Colaboradores e Times** o time **team-m2-correcoes**.  
-No Canvas, por favor, envie sua url do GitHub Pages: (ex: https://nomedeusuario.github.io/oregon-trail-inheritance) e envie o link do seu repositório nos comentários.
+## Criador do projeto
+
+Este projeto foi criado e estruturado por:
+
+<table>
+  <tr>
+    <td align="center">
+        <img src="https://avatars.githubusercontent.com/u/109465340?v=4" width="100px;" alt="Foto do Theus no GitHub"/><br>
+        <sub>
+          <b>Matheus Vieira</b>
+        </sub>
+    </td>
+  </tr>
+</table>
